@@ -43,6 +43,7 @@ Whether you're a **brand-new player** drawn in by nostalgia or word of mouth, or
 | [Classes and Races](classes-and-races.md) | Breakdown of all playable classes and races, their strengths, and recommendations for new players |
 | [Leveling Guide](leveling-guide.md) | Zone progression, group hunting spots, solo strategies, and tips for efficient leveling |
 | [Hotkeys & Looting](hotkeys-and-looting.md) | Target cycling, auto-loot, hotbar setup, key rebinds, and a quick-reference command card |
+| [Maps & Navigation](maps.md) | In-game map, Find feature (Ctrl+F), installing Brewall's community map pack from eqmaps.info |
 | [Macros](macros.md) | Solo macros, group role macros, and a full 2-boxing macro guide with popular duo combos |
 | [UI Scaling & Display](ui-scaling.md) | Fixing tiny UI on 4K/high-res monitors, eqclient.ini tweaks, custom UI packs, 2-box windowed layout |
 
