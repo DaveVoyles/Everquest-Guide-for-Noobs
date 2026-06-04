@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EverQuest Guide for Noobs</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg'><text y='32' font-size='32'>⚔️</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- WebGL starfield background -->
+  <canvas id="bg-canvas"></canvas>
+
+  <div id="app">
+
+    <!-- ── Sidebar ── -->
+    <aside id="sidebar">
+      <div id="sidebar-header">
+        <div id="logo-icon">⚔️</div>
+        <div id="logo-text">
+          <span class="logo-title">EverQuest</span>
+          <span class="logo-sub">Guide for Noobs</span>
+        </div>
+      </div>
+
+      <div id="search-wrapper">
+        <input id="search-input" type="text" placeholder="🔍  Search guide…" autocomplete="off" spellcheck="false" />
+        <button id="search-clear" aria-label="Clear search" hidden>✕</button>
+      </div>
+
+      <nav id="nav-menu">
+        <!-- populated by app.js -->
+      </nav>
+
+      <div id="sidebar-footer">
+        <a href="https://github.com/DaveVoyles/Everquest-Guide-for-Noobs" target="_blank" rel="noopener noreferrer">
+          📦 View Source on GitHub
+        </a>
+      </div>
+    </aside>
+
+    <!-- ── Content ── -->
+    <div id="main-wrapper">
+      <header id="topbar">
+        <button id="menu-btn" aria-label="Toggle navigation menu">☰</button>
+        <div id="breadcrumb">
+          <span class="bc-root">⚔️ EverQuest Guide</span>
+          <span class="bc-sep" id="bc-sep">›</span>
+          <span class="bc-page" id="bc-page"></span>
+        </div>
+        <button id="back-to-top" title="Back to top" hidden>↑ Top</button>
+      </header>
+
+      <main id="content-area">
+        <article id="page-content" class="markdown-body">
+          <div id="loading">
+            <div class="spinner"></div>
+            <p>Summoning knowledge…</p>
+          </div>
+        </article>
+      </main>
+    </div>
+
+  </div>
+
+  <!-- Mobile sidebar overlay -->
+  <div id="overlay"></div>
+
+  <!-- CDN dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+
+  <!-- App scripts -->
+  <script src="assets/js/webgl.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+</html>
