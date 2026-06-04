@@ -2,6 +2,59 @@
 
 ---
 
+## 🎯 Target Cycling: Selecting the Right Enemy
+
+Before any macro fires, you need the right target. EQ has several ways to cycle and select targets — mastering these is as important as any macro.
+
+### 🔑 Default Target Keys
+
+| Key | What It Does |
+|-----|-------------|
+| **F8** | Target the **nearest NPC/mob** — most useful key in the game |
+| **F7** | Target the nearest **PC (player character)** |
+| **Tab** | Cycle through nearby targets in order |
+| **Esc** | Clear current target |
+| **Left-click** | Click directly on a mob to target it |
+
+### ♻️ Cycling Through Targets
+
+**Tab** cycles through every targetable entity in range. By default it includes NPCs, players, and objects — which can be noisy in a busy zone.
+
+**Recommended rebinds** (Options → Keys):
+- Bind **"Target Next NPC"** to a mouse thumb button or `~` for fast cycling through mobs only
+- Keep **F8** for snapping to the single nearest mob
+
+### 🏹 Targeting by Name or Type
+
+```
+/target <name>         — Target by exact name (partial names work too)
+/target corpse         — Target nearest corpse
+/target npc            — Target nearest NPC (same as F8)
+/target pc             — Target nearest player
+/target pet            — Target nearest pet
+```
+
+Example: `/target a gnoll` targets the nearest mob whose name contains "gnoll".
+
+### 🔁 Assist Targeting (Groups)
+
+```
+/assist                — Target what your current target is targeting
+/assist <name>         — Target what a specific player is targeting
+```
+
+In a group: press your assist hotkey → your target becomes the tank's target → attack. This is the single most important targeting habit in group play.
+
+### 💀 Target Your Own Corpse
+
+```
+/target corpse
+```
+
+After dying, this immediately selects your corpse so you can right-click it to loot your gear back. Put this on a hotbar slot.
+
+---
+
 ## 📋 How EQ Macros Work
 
 EverQuest macros are called **Socials**. They let you chain up to 5 slash commands that execute in sequence when you press a button.
@@ -23,6 +76,7 @@ You can also assign a **hotkey** by right-clicking the finished hotbar button an
 | `/pause X` | Pauses `X/10` seconds (e.g. `/pause 30` = 3-second pause) |
 | `/cast #` | Casts the spell in gem slot # (1–8) |
 | `/doability #` | Activates a combat ability by its slot number in your Abilities window |
+| `/notify WndName BtnName leftmouseup` | Simulates clicking a UI button — used for auto-looting |
 
 > 💡 **Tip:** `/pause` must be on its own line and counts as one of your 5 lines, so use it sparingly.
 
@@ -33,86 +87,176 @@ You can also assign a **hotkey** by right-clicking the finished hotbar button an
 
 ---
 
-## 👤 Essential Solo Macros
+## 🎁 Auto-Loot Macros
 
-### ⚔️ Assist + Attack
-Targets whatever your target is targeting, then engages — great for assisting a tank.
-```
-/assist
-/attack on
-```
-
-### 🧙 Sit to Med (Quick Mana Regen)
-Sits you down to regen mana faster and lets your group know you need a moment.
-```
-/sit
-/say Medding - back in a moment
-```
-
-### 📦 Target + Loot Nearest Corpse
-Finds and loots the closest corpse without clicking around.
+### 📦 Basic: Target + Open Loot Window
+Targets the nearest corpse and opens the loot window — you still click "Loot All" manually.
 ```
 /target corpse
 /loot
 ```
 
+### ⚡ Advanced: Auto-Loot Without Clicking (Skip the Confirmation Window)
+
+EQ's `/notify` command simulates clicking UI buttons. This sequence opens the loot window **and automatically clicks "Loot All"** — no mouse interaction needed:
+
+```
+/target corpse
+/loot
+/pause 5
+/notify LootWnd LootAll leftmouseup
+```
+
+**How it works:**
+- Line 1: Targets the nearest corpse
+- Line 2: Opens the loot window
+- Line 3: Waits 0.5 seconds for the window to load
+- Line 4: Simulates clicking the "Loot All" button inside the loot window
+
+> 💡 **Set this to a single easy key** (like `F`) — after every kill, tap it once and your loot is collected instantly.
+
+> ⚠️ If the loot window fails to open (you're too far from the corpse, or nothing is left on it), the `/notify` line does nothing — it's safe to fire even on empty corpses.
+
+### 🧹 Auto-Loot + Hide Corpse
+Loots automatically, then hides the corpse to clean up your screen:
+```
+/target corpse
+/loot
+/pause 5
+/notify LootWnd LootAll leftmouseup
+/hidecorpse looted
+```
+
+> ⚠️ Five lines is the maximum. This macro uses all 5 — it won't fit anything else.
+
+### 🔄 Loot All Nearby (Repeat Tapping)
+There's no single macro to loop through multiple corpses, but binding your auto-loot macro to a fast key and tapping it repeatedly works well. Each press targets the next nearest corpse in sequence.
+
+---
+
+## 👤 Essential Solo Macros
+
+### ⚔️ Target Nearest + Attack
+Snap to the closest mob and start swinging in one keystroke:
+```
+/target npc
+/attack on
+```
+
+### 🤝 Assist Main Tank + Attack
+For groups — assists the tank and immediately engages:
+```
+/assist <TankName>
+/attack on
+```
+
+### 🏃 Follow + Attack (Box or Groupmate)
+Follow a player, then when you're near them, switch to attack their target:
+```
+/follow <PlayerName>
+/assist <PlayerName>
+/attack on
+```
+> 💡 **Note:** `/follow` and `/assist` are instant but `/follow` needs a moment to path. Use a pause if the box is frequently attacking before catching up: replace line 2 with `/pause 20` then add `/assist <PlayerName>` on line 3.
+
+### 🧙 Sit to Med (Quick Mana Regen)
+```
+/sit
+/say Medding - back in a moment
+```
+
 ### 🚪 Gate Macro (Emergency Escape)
-Casts your Gate spell to teleport back to your bind point. Adjust the slot number to match where Gate sits on your spell bar.
 ```
 /cast 8
 ```
-> ⚠️ **Note:** Gate is typically a long cast — don't get hit while casting or it will fizzle.
+> Adjust slot number to match where Gate is memorized on your spell bar.
 
 ### ⚠️ Call for Help
-Shouts to /ooc that you're in trouble, names your attacker via `%t`, and broadcasts your location.
 ```
-/ooc HELP! %t has me at low health - /loc
+/ooc HELP! Being attacked by %t
 /loc
 ```
 
-### 📍 Check and Announce Your Location
-Useful when asking for a port or telling your group where you are.
+### 📍 Announce Your Location
 ```
-/say My location:
+/say My loc:
 /loc
 ```
 
 ### 🐾 Pet Attack Current Target
-Orders your pet to attack and announces it to the group so they know it wasn't a mistake.
 ```
 /pet attack
 /say Sending pet on %t
 ```
 
-### 🐾 Pet Back Off + Sit to Med
-Pulls your pet off and sits you down to recover after a fight.
+### 🐾 Pet Back Off + Med
 ```
 /pet back off
 /sit
 ```
 
-### 💀 Full Emergency Macro (Necromancer — Feign Death)
-Feigns death to drop aggro, waits 2 seconds, then sits to med.
+### 💀 Feign Death + Med (Necromancer / Monk)
 ```
 /doability 1
 /pause 20
 /sit
 ```
-> ⚠️ **Note:** Adjust `/doability 1` to match the slot Feign Death occupies in your Abilities window (Alt+A).
+> Adjust `/doability 1` to the Feign Death slot in your Abilities window (Alt+A).
 
-### 🪄 Buffing Announcement Macro
-Lets the zone know you're buffing and then casts your first spell slot.
+### 🪄 Buff Announcement
 ```
-/ooc Buffing - /tell me for buffs
+/ooc Buffing - /tell me for SoW or Clarity
 /cast 1
 ```
 
-### 🎯 Group Pull Announcement
-Warns your group a pull is incoming and starts your attack.
+### 🎯 Pull Announcement
 ```
-/gsay Pulling %t - stand by
+/gsay Pulling %t - incoming!
 /attack on
 ```
+
+---
+
+## ⚔️ Combat Sequence Macros
+
+### Full Kill Cycle: Assist → Attack → Loot
+Chain three separate hotkeys together mentally:
+1. **Hotkey 1 — Engage:** `/assist <tank>` + `/attack on`
+2. **Hotkey 2 — Kill confirmation:** (manual — watch mob die)
+3. **Hotkey 3 — Loot:** `/target corpse` + `/loot` + `/pause 5` + `/notify LootWnd LootAll leftmouseup` + `/hidecorpse looted`
+
+> EQ's 5-line limit means you can't put a full kill cycle in one macro — split it across two buttons.
+
+### 🗡️ Warrior Combat Macro (Taunt + Bash)
+Taunts to hold aggro then bashes. Adjust doability slot numbers to match your Abilities window.
+```
+/doability 1
+/pause 5
+/doability 2
+```
+
+### 🥷 Rogue Backstab Opener
+Moves behind target, triggers backstab, announces to group:
+```
+/face
+/doability 1
+/gsay Backstabbing %t
+```
+
+### 🧙 Nuke + Announce (Wizard)
+Casts your main nuke (slot 1) and tells the group:
+```
+/gsay Nuking %t
+/cast 1
+```
+
+### 💊 Emergency Heal Self (Any Healer)
+Targets yourself immediately and casts the heal in slot 1:
+```
+/target <YourName>
+/cast 1
+```
+> Replace `<YourName>` with your character's actual name. This is faster than clicking your own portrait.
 
 ---
 
@@ -122,8 +266,8 @@ Warns your group a pull is incoming and starts your attack.
 
 2-boxing means running **two EverQuest accounts at the same time** — typically on two computers or two windows on the same machine. One character is your **main** (actively controlled), the other is your **box** (semi-automated).
 
-- ✅ **EQLive (live servers):** Officially permitted — two accounts, two instances.
-- ❌ **Project 1999:** Officially prohibited — check server rules before attempting.
+- ✅ **EQLive (live servers):** Officially permitted
+- ❌ **Project 1999:** Officially prohibited — check server rules
 
 **Common 2-Box Combos:**
 
@@ -131,75 +275,82 @@ Warns your group a pull is incoming and starts your attack.
 |---|---|
 | 🛡️💊 Warrior + Cleric | Survivable tank with a dedicated healer |
 | 🗡️🧙 Shadowknight + Shaman | Self-sufficient with buffs, slows, and lifetaps |
-| 💀🧙 Necromancer + Enchanter | DoTs + crowd control = extremely efficient XP |
+| 💀🧙 Necromancer + Enchanter | DoTs + crowd control = efficient XP |
 | 🪄🎵 Magician + Bard | Pet DPS + mana/speed songs for sustained pulls |
 | 🌿⚕️ Druid + Anything | Ports, heals, snare, and versatility |
 
 ---
 
-### 🏃 Box Follow Macro
-Place this on your **box's** hotbar. Replaces `<MainCharacterName>` with your main's actual name.
+### 🏃 Box Follow Main
+Place on the **box's** hotbar. Keeps the box glued to your main:
 ```
-/follow <MainCharacterName>
+/follow <MainName>
 ```
 
-### ⚔️ Box Assist Macro
-Box targets and attacks whatever your main is currently attacking.
+### ⚔️ Box Assist + Attack
+Box targets and attacks whatever your main is currently fighting:
 ```
-/assist <MainCharacterName>
+/assist <MainName>
 /attack on
 ```
 
-### 💊 Box Heal-on-Assist Macro (Cleric / Druid Box)
-Box targets your main and immediately casts the heal in slot 1. Set slot 1 to your best available heal.
+### ⚔️ Box Follow + Assist + Attack (All-in-One)
+Great for a melee box that should stay near you and always fight your target:
 ```
-/assist <MainCharacterName>
+/follow <MainName>
+/pause 10
+/assist <MainName>
+/attack on
+```
+
+### 💊 Box Heal Main (Cleric / Druid Box)
+Box targets your main and casts the heal in slot 1:
+```
+/target <MainName>
 /cast 1
 ```
 
-### 🪄 Box Buff Main Macro
-Targets your main and casts the spell in slot 1 (set to your key buff — Clarity, Torpor, etc.).
+### 🪄 Box Buff Main
+Targets main and casts the buff in slot 2 (e.g. Clarity, Haste, Symbol):
 ```
-/target <MainCharacterName>
-/cast 1
-```
-
-### 🛡️ Box Cancel Follow + Stand Ground
-Stops the box from following so it holds position (useful before a risky pull).
-```
-/stand
-/face
+/target <MainName>
+/cast 2
 ```
 
-### 🐾 Box Pet Attack Assist (Mage / Necro Box)
-Box assists your main's target and immediately sends its pet.
+### 🐾 Box Pet Assist (Mage / Necro Box)
+Box assists your main's target and sends the pet:
 ```
-/assist <MainCharacterName>
+/assist <MainName>
 /pet attack
 ```
 
-### 👥 Announce Box Status in Group
-Lets your group know what your box is doing.
-```
-/gsay [BOX] Following %t - ready to assist
-```
-
-### ⚠️ Stop Everything (Emergency)
-Shuts down all aggro activity on the box instantly.
+### 🛑 Box Stop Everything (Emergency)
+Instantly halts all box activity:
 ```
 /attack off
 /pet back off
+/follow off
 /sit
+```
+
+### 🧟 Box Auto-Loot After Kill
+Run this on your box after mobs die to clean up corpses automatically:
+```
+/target corpse
+/loot
+/pause 5
+/notify LootWnd LootAll leftmouseup
+/hidecorpse looted
 ```
 
 ---
 
 ## 💡 Tips for 2-Boxing
 
-- 🧙 **Keep the box's spell bar simple** — heals, buffs, and one nuke or DoT. Don't overcomplicate it.
-- ⌨️ **Use a separate keyboard or programmable macro keys** for box commands so you don't lose control of your main.
-- 🔑 **Bind "Assist Main" to an easy key** on both machines so you can fire it reflexively.
-- 🏃 **Keep the box close** using `/follow` — if your main gets into trouble, the box needs to be nearby to act.
-- 💊 **A Cleric box should auto-med** between pulls by putting `/sit` on an easily accessible key or binding it to a post-combat Social.
-- ⚠️ **Watch your box's mana bar** — a box that runs out of mana mid-fight is a liability, not an asset. Med aggressively.
-- ✅ **Start simple** — follow + assist + one heal button is all you need to learn 2-boxing. Add complexity gradually.
+- 🧙 **Keep the box's spell bar simple** — heals, one buff, one nuke. Don't overcomplicate it.
+- ⌨️ **Use a programmable keypad** (like a Razer Tartarus or Logitech G13) for box commands so you don't fumble your main's controls.
+- 🔑 **"Assist Main" is your most-used 2-box key** — put it somewhere you can hit without looking.
+- 🏃 **Keep the box on `/follow` between fights** — if your main moves to a new camp, the box comes with you automatically.
+- 💊 **A Cleric box should auto-med** — put `/sit` on a post-combat key so it recovers mana between pulls.
+- ⚠️ **Watch the box's mana bar** — a healer box that goes OOM mid-fight is dangerous. Slow down pulls or let it sit longer.
+- ✅ **Start simple** — follow + assist + one heal is all you need to learn 2-boxing. Add complexity over time.
