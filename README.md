@@ -1,4 +1,4 @@
-# Everquest Guide For Noobs
+# ⚔️ Everquest Guide For Noobs 🌍
 
 > *"Fear the night. Respect the world. Trust your guild."*
 
@@ -6,22 +6,22 @@ Welcome to **Everquest Guide For Noobs** — a community-maintained beginner's r
 
 ---
 
-## What Is Everquest?
+## 🌍 What Is Everquest?
 
 **EverQuest** (EQ) is a massively multiplayer online role-playing game developed by Verant Interactive and published by Sony Online Entertainment (now Daybreak Game Company). It launched on **March 16, 1999**, making it one of the oldest MMORPGs still in active operation — over 25 years later.
 
 EQ takes place in the world of **Norrath**, a sprawling high-fantasy universe filled with iconic zones, brutal dungeons, and a living economy built almost entirely around player interaction. Unlike many modern games, EverQuest was designed around **challenge, community, and consequence**. Nothing is handed to you.
 
 The game remains actively played on:
-- **Live servers** — the current, fully-updated version of the game with decades of expansions
-- **Progression (TLP) servers** — time-locked servers that restart from the original or near-original content and unlock expansions over time, giving players the "classic" experience in waves
-- **True Box / Hardcore Heritage servers** — specialty rule sets for different playstyles
+- 🖥️ **Live servers** — the current, fully-updated version of the game with decades of expansions
+- ⏪ **Progression (TLP) servers** — time-locked servers that restart from the original or near-original content and unlock expansions over time, giving players the "classic" experience in waves
+- 🎮 **True Box / Hardcore Heritage servers** — specialty rule sets for different playstyles
 
 EQ has released **30+ expansions** over its lifetime. For new players, starting on a Progression server is often recommended because the world is simpler and the community is more active early on.
 
 ---
 
-## Why This Guide Exists
+## 💡 Why This Guide Exists
 
 EverQuest does not hold your hand. There is no quest compass, no automatic group finder (on most servers), no glowing path to follow. The game assumes you will figure things out — ideally by talking to other players, reading zone maps, and dying a lot.
 
@@ -35,47 +35,49 @@ Whether you're a **brand-new player** drawn in by nostalgia or word of mouth, or
 
 ---
 
-## Table of Contents
+## 📋 Table of Contents
 
 | File | Description |
 |------|-------------|
-| [Getting Started](getting-started.md) | Character creation, UI basics, Bind & Gate explained, death/corpse runs, social etiquette |
-| [Classes and Races](classes-and-races.md) | Breakdown of all playable classes and races, their strengths, and recommendations for new players |
-| [Leveling Guide](leveling-guide.md) | Zone progression, group hunting spots, solo strategies, and tips for efficient leveling |
-| [Hotkeys & Looting](hotkeys-and-looting.md) | Target cycling, auto-loot, hotbar setup, key rebinds, and a quick-reference command card |
-| [Maps & Navigation](maps.md) | In-game map, Find feature (Ctrl+F), installing Brewall's community map pack from eqmaps.info |
-| [Macros](macros.md) | Solo macros, group role macros, and a full 2-boxing macro guide with popular duo combos |
-| [UI Scaling & Display](ui-scaling.md) | Fixing tiny UI on 4K/high-res monitors, eqclient.ini tweaks, custom UI packs, 2-box windowed layout |
+| 🚪 [Getting Started](getting-started.md) | Character creation, UI basics, Bind & Gate explained, death/corpse runs, social etiquette |
+| ⚔️ [Classes and Races](classes-and-races.md) | Breakdown of all playable classes and races, their strengths, and recommendations for new players |
+| 📈 [Leveling Guide](leveling-guide.md) | Zone progression, group hunting spots, solo strategies, and tips for efficient leveling |
+| ⌨️ [Hotkeys & Looting](hotkeys-and-looting.md) | Target cycling, auto-loot, hotbar setup, key rebinds, and a quick-reference command card |
+| 🗺️ [Maps & Navigation](maps.md) | In-game map, Find feature (Ctrl+F), installing Brewall's community map pack from eqmaps.info |
+| 📋 [Macros](macros.md) | Solo macros, group role macros, and a full 2-boxing macro guide with popular duo combos |
+| 🖥️ [UI Scaling & Display](ui-scaling.md) | Fixing tiny UI on 4K/high-res monitors, eqclient.ini tweaks, custom UI packs, 2-box windowed layout |
+| 💬 [Chat Windows & Filters](chat-windows.md) | How many windows to use, which filters go where, adjusting font size, recommended layout |
+| 📚 [Skills & Spells](skills-and-spells.md) | How skills level up, where to spend training points, where to buy spells and when, spell memorization |
 
 ---
 
-## Quick Tips for Absolute Beginners
+## 🔑 Quick Tips for Absolute Beginners
 
 These are the things most players wish someone had told them before their first character hit level 5.
 
-1. **Talk to other players.** EQ is a social game. Ask questions in `/say` (local) or `/ooc` (out of character, zone-wide). Most veteran players are happy to help — and some will hand you gear, buffs, or even plat just for asking politely.
+1. 💬 **Talk to other players.** EQ is a social game. Ask questions in `/say` (local) or `/ooc` (out of character, zone-wide). Most veteran players are happy to help — and some will hand you gear, buffs, or even plat just for asking politely.
 
-2. **Never run from a con you shouldn't be fighting.** If a mob is **red** to you, it will likely kill you in seconds. If you pull aggro you can't handle, try to zone (cross a zone boundary) rather than die in the middle of nowhere.
+2. ⚠️ **Never run from a con you shouldn't be fighting.** If a mob is **red** to you, it will likely kill you in seconds. If you pull aggro you can't handle, try to zone (cross a zone boundary) rather than die in the middle of nowhere.
 
-3. **Bind your soul somewhere safe.** Type `/bind` while standing in a safe city or inn to set your bind point. When you die, you respawn here. Dying near a dungeon entrance and rebinding there can save you a miserable corpse run later.
+3. 📍 **Bind your soul somewhere safe.** Type `/bind` while standing in a safe city or inn to set your bind point. When you die, you respawn here. Dying near a dungeon entrance and rebinding there can save you a miserable corpse run later.
 
-4. **Your corpse has your stuff.** In classic EQ, you drop your **entire inventory** on death. Your corpse decays over time. Learning to do a corpse run — sneaking back to your body — is an essential skill. Don't panic, but don't dawdle either.
+4. 💀 **Your corpse has your stuff.** In classic EQ, you drop your **entire inventory** on death. Your corpse decays over time. Learning to do a corpse run — sneaking back to your body — is an essential skill. Don't panic, but don't dawdle either.
 
-5. **Food and water matter.** You need to eat and drink regularly or your stats will suffer. Stock up from vendors in town before heading out. It's cheap and the alternative (being hungry/thirsty mid-fight) is annoying.
+5. 🍺 **Food and water matter.** You need to eat and drink regularly or your stats will suffer. Stock up from vendors in town before heading out. It's cheap and the alternative (being hungry/thirsty mid-fight) is annoying.
 
-6. **Sit down to regenerate faster.** Standing around waiting for HP/mana to regen is slow. Sitting (press `S` or click the sit button) dramatically increases your regeneration rate. Casters especially need to sit between pulls.
+6. 🧘 **Sit down to regenerate faster.** Standing around waiting for HP/mana to regen is slow. Sitting (press `S` or click the sit button) dramatically increases your regeneration rate. Casters especially need to sit between pulls.
 
-7. **Mana is sacred if you're a caster.** Unlike modern MMOs, mana does not return quickly mid-fight. Learn to manage it carefully — don't nuke everything when you can land a single root or slow and let your melee do the work.
+7. 🪄 **Mana is sacred if you're a caster.** Unlike modern MMOs, mana does not return quickly mid-fight. Learn to manage it carefully — don't nuke everything when you can land a single root or slow and let your melee do the work.
 
-8. **Grouping is almost always better than soloing.** EQ was designed around groups of 6. Solo play is viable for certain classes (Necromancer, Druid, Bard), but for most classes, even a loose group of strangers is dramatically more efficient and safer than going it alone.
+8. 👥 **Grouping is almost always better than soloing.** EQ was designed around groups of 6. Solo play is viable for certain classes (Necromancer, Druid, Bard), but for most classes, even a loose group of strangers is dramatically more efficient and safer than going it alone.
 
-9. **Read your spells and abilities carefully.** EQ is not a button-mashing game. Understanding what each spell does — and when *not* to cast it — is the difference between a good player and a liability. Resist the urge to spam your biggest nuke.
+9. 📖 **Read your spells and abilities carefully.** EQ is not a button-mashing game. Understanding what each spell does — and when *not* to cast it — is the difference between a good player and a liability. Resist the urge to spam your biggest nuke.
 
-10. **The world does not scale to you.** Some zones are genuinely dangerous at low levels. A bear in Blackburrow does not care that you're level 3. Pay attention to the `/con` (consider) command to judge enemy difficulty before engaging, and respect the result.
+10. ⚠️ **The world does not scale to you.** Some zones are genuinely dangerous at low levels. A bear in Blackburrow does not care that you're level 3. Pay attention to the `/con` (consider) command to judge enemy difficulty before engaging, and respect the result.
 
 ---
 
-## What Makes EQ Different
+## ✨ What Makes EQ Different
 
 If you're coming from World of Warcraft, Final Fantasy XIV, Guild Wars 2, or almost any other modern MMORPG, EverQuest will feel **alien**. That's not a flaw — it's a feature. Here's what sets it apart:
 
@@ -111,18 +113,18 @@ EQ heavily rewards players who **know the world**. What does this mob drop? Wher
 
 ---
 
-## Contributing & Feedback
+## 🤝 Contributing & Feedback
 
 This guide is a living document. If you find incorrect information, outdated zone tips, or have something useful to add:
 
-- **Open an issue** describing the problem or suggestion
-- **Submit a pull request** with your proposed changes
-- **Leave feedback** in the community Discord or forums
+- 🐛 **Open an issue** describing the problem or suggestion
+- 🔄 **Submit a pull request** with your proposed changes
+- 💬 **Leave feedback** in the community Discord or forums
 
 All contributions should aim to be:
-- **Accurate** — tested or sourced from reliable EQ community resources (EQWiki, Allakhazam, Project1999 wiki, etc.)
-- **Server-aware** — note if a tip applies only to Live, TLP, or a specific ruleset
-- **Beginner-friendly** — written for someone who may never have played a 1999 MMO before
+- ✅ **Accurate** — tested or sourced from reliable EQ community resources (EQWiki, Allakhazam, Project1999 wiki, etc.)
+- 🌐 **Server-aware** — note if a tip applies only to Live, TLP, or a specific ruleset
+- 🟢 **Beginner-friendly** — written for someone who may never have played a 1999 MMO before
 
 Thanks for helping make Norrath a little less terrifying for the next wave of noobs.
 

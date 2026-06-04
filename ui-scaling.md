@@ -1,4 +1,4 @@
-# EverQuest UI Scaling Guide (Including 4K / High-DPI Monitors)
+# 🖥️ EverQuest UI Scaling Guide (Including 4K / High-DPI Monitors)
 
 ---
 
@@ -10,7 +10,7 @@ This is the single most effective thing you can do. Skip the rest of this guide 
 
 ---
 
-## The Problem: EQ's UI Was Built for Old Monitors
+## ⚠️ The Problem: EQ's UI Was Built for Old Monitors
 
 EverQuest's UI was designed in **1999** for 800×600 and 1024×768 monitors. Every button, window, and font was sized with those resolutions in mind.
 
@@ -18,9 +18,9 @@ On a **4K (3840×2160)** or **1440p** monitor, those same fixed-pixel UI element
 
 ---
 
-## The Easiest Fix: Set Windows Resolution Before Launching
+## ✅ The Easiest Fix: Set Windows Resolution Before Launching
 
-### Step-by-Step (Recommended for 4K Users)
+### 📐 Step-by-Step (Recommended for 4K Users)
 
 1. Right-click your Windows desktop → **Display Settings**
 2. Change your resolution to **1920×1080**
@@ -33,7 +33,7 @@ On a **4K (3840×2160)** or **1440p** monitor, those same fixed-pixel UI element
 
 ---
 
-### Pro Tip: Automate It with a Shortcut or Batch File
+### 💡 Pro Tip: Automate It with a Shortcut or Batch File
 
 Switching resolutions manually every session gets old fast. You can automate it:
 
@@ -51,20 +51,20 @@ Save that as a `.bat` file and use it as your EQ launcher. It switches to 1080p,
 
 ---
 
-## In-Game Resolution Settings
+## 🎮 In-Game Resolution Settings
 
 Once you're in-game, confirm EQ's internal resolution matches your Windows desktop:
 
 - **Options → Display tab**
 - Set the resolution to match your current Windows desktop resolution (e.g., 1920×1080)
 
-### Full Screen vs. Windowed vs. Windowed Fullscreen
+### 🪟 Full Screen vs. Windowed vs. Windowed Fullscreen
 
 | Mode | Pros | Cons |
 |------|------|------|
-| **Full Screen** | Best performance; captures mouse focus | Hard to alt-tab; bad for 2-boxing |
-| **Windowed** | Easy alt-tab; great for 2-boxing | Slightly lower performance; has window chrome |
-| **Windowed Fullscreen** | Clean look; easy to alt-tab | Mouse can escape to other monitors |
+| 🖥️ **Full Screen** | Best performance; captures mouse focus | Hard to alt-tab; bad for 2-boxing |
+| 🪟 **Windowed** | Easy alt-tab; great for 2-boxing | Slightly lower performance; has window chrome |
+| 🖥️🪟 **Windowed Fullscreen** | Clean look; easy to alt-tab | Mouse can escape to other monitors |
 
 - **Solo players on a single monitor:** Windowed Fullscreen is a great compromise.
 - **2-boxers:** Windowed mode so you can freely click between two clients.
@@ -72,15 +72,15 @@ Once you're in-game, confirm EQ's internal resolution matches your Windows deskt
 
 ---
 
-## Scaling the EQ UI Elements
+## 🔧 Scaling the EQ UI Elements
 
-### Moving and Resizing Windows
+### 🖱️ Moving and Resizing Windows
 
 - **Left-click and drag** the title bar of any UI window to move it anywhere on screen.
 - **Right-click** most windows for a context menu — look for **Lock/Unlock** to prevent accidental dragging.
 - Many windows (inventory, spell gems, chat) have a small **resize handle at the bottom-right corner** — drag it to resize.
 
-### Font Size / UI Scale
+### 🎨 Font Size / UI Scale
 
 - **EQLive:** Check **Options → Display** for a UI Scale slider (availability varies by client version).
 - Individual window font sizes can often be changed by **right-clicking the window** → Font Size.
@@ -88,7 +88,7 @@ Once you're in-game, confirm EQ's internal resolution matches your Windows deskt
 
 ---
 
-## The eqclient.ini Tweaks
+## ⚙️ The eqclient.ini Tweaks
 
 `eqclient.ini` is EQ's main configuration file. You can edit it in Notepad to control window size and mode.
 
@@ -110,13 +110,13 @@ WindowedHeight=1080        ; Set window height
 
 ---
 
-## Recommended UI Layouts
+## 🎨 Recommended UI Layouts
 
-### Default UI (Fine for 1080p)
+### ✅ Default UI (Fine for 1080p)
 
 If you followed the 1080p tip above, the default UI is perfectly usable. Stick with it until you're comfortable with the game before diving into customization.
 
-### EQUI Custom UI Packs (EQLive)
+### 🖌️ EQUI Custom UI Packs (EQLive)
 
 EQLive supports fully custom UI packs. The community has created many designed for modern resolutions and readability.
 
@@ -134,16 +134,16 @@ EQLive supports fully custom UI packs. The community has created many designed f
 
 If a UI breaks after a patch, use **Options → Display → UI → Default** to revert to safety.
 
-### Hotbar Placement Tips
+### 💡 Hotbar Placement Tips
 
-- Move hotbars to the **bottom center** of the screen — muscle memory from modern games will thank you.
-- Keep the **chat window large** enough to read without leaning forward. Resize it generously.
-- Keep the **spell gem bar** visible and away from your target/buff windows.
-- **2-boxing in windowed mode on a 1080p desktop:** Run both clients at **960×1080** each, side by side, filling the screen.
+- ⌨️ Move hotbars to the **bottom center** of the screen — muscle memory from modern games will thank you.
+- 💬 Keep the **chat window large** enough to read without leaning forward. Resize it generously.
+- 🔮 Keep the **spell gem bar** visible and away from your target/buff windows.
+- 🖥️ **2-boxing in windowed mode on a 1080p desktop:** Run both clients at **960×1080** each, side by side, filling the screen.
 
 ---
 
-## P1999 Specific Notes
+## 🏰 P1999 Specific Notes
 
 Project 1999 uses a modified classic EverQuest client with a few differences:
 
@@ -154,17 +154,17 @@ Project 1999 uses a modified classic EverQuest client with a few differences:
 
 ---
 
-## Quick Troubleshooting
+## 🛠️ Quick Troubleshooting
 
 | Problem | Fix |
 |---------|-----|
-| UI is tiny / unreadable | Set Windows desktop to 1080p **before** launching EQ |
-| Game launches in wrong resolution | Edit `eqclient.ini` — set `WindowedWidth` and `WindowedHeight` |
-| Windows overlap and can't be separated | Right-click the window → **Unlock**, then drag it away |
-| Chat text too small | Resize the chat window larger; right-click it → Font Size |
-| Hotbars disappeared | Right-click any existing hotbar → **Add Hotbar** |
-| UI reverted / broken after patch | Custom UIs can break on patches — revert to Default UI, then re-apply your custom one |
-| Mouse stuck in game (full screen) | Switch to Windowed or Windowed Fullscreen mode |
+| 🔍 UI is tiny / unreadable | Set Windows desktop to 1080p **before** launching EQ |
+| 🔧 Game launches in wrong resolution | Edit `eqclient.ini` — set `WindowedWidth` and `WindowedHeight` |
+| 🪟 Windows overlap and can't be separated | Right-click the window → **Unlock**, then drag it away |
+| 💬 Chat text too small | Resize the chat window larger; right-click it → Font Size |
+| ⌨️ Hotbars disappeared | Right-click any existing hotbar → **Add Hotbar** |
+| 🎨 UI reverted / broken after patch | Custom UIs can break on patches — revert to Default UI, then re-apply your custom one |
+| 🖱️ Mouse stuck in game (full screen) | Switch to Windowed or Windowed Fullscreen mode |
 
 ---
 

@@ -1,10 +1,10 @@
-# Maps & Navigation in EverQuest
+# 🗺️ Maps & Navigation in EverQuest
 
 EverQuest's world is enormous, and navigation can be one of the biggest challenges for new players — especially since there are no quest arrows or GPS-style markers like modern MMOs. This guide covers the in-game map, the Find feature, and how to install vastly superior community maps.
 
 ---
 
-## The In-Game Map
+## 🗺️ The In-Game Map
 
 ### Opening the Map
 - Press **M** (default) to open the map window
@@ -30,7 +30,7 @@ The default EQ map files are sparse. Many zones have no geometry at all, and NPC
 
 ---
 
-## The Find Feature (EQLive)
+## 🔍 The Find Feature (EQLive)
 
 The **Find** window is one of EQLive's most useful quality-of-life features. It lets you search for NPCs, vendors, bankers, and points of interest within the current zone — and draws a **glowing trail on the ground** leading you to them.
 
@@ -65,7 +65,7 @@ The **Find** window is one of EQLive's most useful quality-of-life features. It 
 
 ---
 
-## Installing Better Maps: Brewall's Map Files
+## 📦 Installing Better Maps: Brewall's Map Files
 
 The default EQ map files are minimal. **Brewall's Map Files** are a community-maintained, heavily annotated replacement that include:
 - Accurate zone geometry for all expansions
@@ -133,7 +133,7 @@ C:\Users\Public\Daybreak Game Company\Installed Games\EverQuest\maps\Brewall\
 
 ---
 
-## P1999 Maps
+## 🏰 P1999 Maps
 
 Project 1999 uses a different client and doesn't support the EQLive map system. Your options:
 
@@ -152,7 +152,7 @@ P1999 does include a basic in-game map window, but it uses minimal default map f
 
 ---
 
-## Map Layers (Multi-Floor Dungeons)
+## 🏢 Map Layers (Multi-Floor Dungeons)
 
 Some zones — particularly multi-floor dungeons like Velketor's Labyrinth, Tower of Frozen Shadow, and Plane of Hate — have **multiple map layers** representing different floors or depth levels.
 
@@ -163,7 +163,7 @@ Some zones — particularly multi-floor dungeons like Velketor's Labyrinth, Towe
 
 ---
 
-## Navigation Tips Without a Map
+## 🧭 Navigation Tips Without a Map
 
 For zones with poor or no map coverage (common on P1999):
 

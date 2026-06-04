@@ -1,10 +1,10 @@
-# EverQuest Classes & Races — Beginner's Guide
+# ⚔️ EverQuest Classes & Races — Beginner's Guide
 
 > **Note:** This guide covers the core EverQuest classes and races as of the classic/progression-era game through modern expansions. Class availability varies by expansion era on progression servers.
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 
 1. [Classes Overview](#classes-overview)
    - [Tanks](#tanks)
@@ -18,7 +18,7 @@
 
 ---
 
-## Classes Overview
+## ⚔️ Classes Overview
 
 EverQuest has 16 classes divided into five archetypes. Understanding your role before you create a character will save you a lot of confusion in the early game.
 
@@ -471,7 +471,7 @@ Pure spellcasters who deal damage, control the battlefield, or support through a
 
 ---
 
-## Races Overview
+## 🌍 Races Overview
 
 EverQuest's races each have different starting stats, racial abilities, starting cities, and class restrictions. Your race affects early gameplay significantly but becomes less impactful as you gain levels and gear.
 
@@ -774,7 +774,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-## Beginner Recommendations
+## 🌟 Beginner Recommendations
 
 ### 🏆 Top 3 Easiest Class/Race Combos for New Players
 
@@ -834,7 +834,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-## Class/Race Combination Table
+## 📊 Class/Race Combination Table
 
 ✅ = Available | ❌ = Not Available | 🌙 = Luclin expansion required | 🐸 = Ykesha expansion required
 
@@ -860,7 +860,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-## Quick Reference: Difficulty at a Glance
+## 📋 Quick Reference: Difficulty at a Glance
 
 | Class | Solo Viability | Group Demand | Difficulty |
 |-------|---------------|--------------|------------|

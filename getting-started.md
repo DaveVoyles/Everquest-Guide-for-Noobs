@@ -1,10 +1,10 @@
-# Getting Started in EverQuest — A Noob's Guide
+# 🌍 Getting Started in EverQuest — A Noob's Guide
 
 Welcome to Norrath! EverQuest is one of the most rewarding MMORPGs ever made, but it can be brutal and confusing at first. This guide will help you survive your first steps. Read everything — this game does not hold your hand.
 
 ---
 
-## Where to Play
+## 🖥️ Where to Play
 
 ### EverQuest Live (EQLive)
 The official, still-active EverQuest game maintained by Daybreak Game Company.
@@ -49,7 +49,7 @@ A **free, fan-run emulated server** that recreates the original "classic" EverQu
 
 ---
 
-## Character Creation
+## 🧙 Character Creation
 
 ### Server Selection for Noobs
 - **EQLive:** Start on a standard server. Avoid brand-new progression servers until you understand the game — they're competitive and fast-paced.
@@ -96,7 +96,7 @@ Every character has six base stats. These are modified by your race and class, a
 
 ---
 
-## The UI and Controls
+## 🎮 The UI and Controls
 
 EverQuest's interface was designed in 1999. It's not intuitive by modern standards, but it's powerful once you learn it.
 
@@ -167,7 +167,7 @@ EverQuest's interface was designed in 1999. It's not intuitive by modern standar
 
 ---
 
-## Your First Hour
+## 🗺️ Your First Hour
 
 ### Talk to Your Guild Master
 When you first appear in the world, find your **Guild Master** NPC near your starting point. Guild Masters give **newbie quests** — simple tasks that reward basic armor, weapons, and experience. Do these first. The gear is humble but better than nothing, and the quests teach you how the game works.
@@ -202,7 +202,7 @@ When you kill a mob, it leaves a **corpse** with loot:
   - **Spirit of Wolf (SoW)** from a Druid or Shaman is arguably the most valuable buff in the game for a new player — it dramatically increases movement speed and survival
   - Always thank the caster — buffs cost them mana and time
 
-### Binding Your Soul (/bind)
+### 🔗 Binding Your Soul (/bind)
 **This is critically important.** When you die, you respawn at your **bind point**. By default you are bound at your race's starting city — which may be a continent away from where you're hunting.
 
 #### How to Bind
@@ -224,7 +224,7 @@ There's no `/showbind` command — you only discover your bind point when you di
 
 ---
 
-### Returning to Your Bind Point: The Gate Spell
+### 🚪 Returning to Your Bind Point: The Gate Spell
 
 **Gate** is a spell that **instantly teleports you back to your bind point**, no matter where you are in the world. It is one of the most important spells in EverQuest.
 
@@ -264,7 +264,7 @@ If you play a class without Gate (Warrior, Monk, Rogue, etc.):
 
 ---
 
-## Death and Corpse Runs
+## 💀 Death and Corpse Runs
 
 EverQuest death is not a slap on the wrist. It is a core mechanic that shapes how you play.
 
@@ -312,7 +312,7 @@ A Cleric's **Resurrection** spell is the most powerful death mitigation in the g
 
 ---
 
-## Social Etiquette
+## 🤝 Social Etiquette
 
 EverQuest has a strong social culture built over decades. The community largely self-polices based on shared norms. Learn these early — your reputation on a server is persistent and matters.
 
