@@ -54,6 +54,10 @@ Whether you're a **brand-new player** drawn in by nostalgia or word of mouth, or
 | ✨ [Buffs Guide](buffs.md) | How buffs work, the most valuable buffs to seek out, Bard songs, buff etiquette, stacking rules |
 | 🏰 [Guilds](guilds.md) | What guilds provide, how to join, guild chat, ranks, guild halls, raiding, finding the right fit |
 | 😡 [Aggro & Threat](aggro.md) | How threat works, how tanks hold aggro, how NOT to steal aggro, class-specific notes, emergency escapes |
+| 🎁 [Looting](looting.md) | Loot windows, group loot rules, ninja loot etiquette, corpse decay, hidecorpse commands, EQLive advanced loot |
+| ☠️ [Death & Corpse Runs](death-and-corpse-runs.md) | What happens when you die, XP loss, corpse runs, resurrection spells, Feign Death, bind point strategy |
+| 🏴 [Faction](faction.md) | How faction works, faction tiers, KOS explained, city alignment by race, repairing faction, Freeport factions |
+| 🔨 [Tradeskills](tradeskills.md) | Overview of all crafting skills, which to start with, Baking/Tailoring/Smithing/Research explained, resources |
 
 ---
 
