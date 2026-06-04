@@ -1,4 +1,4 @@
-# ⚔️ EverQuest Classes & Races — Beginner's Guide
+# ⚔️ EverQuest Classes & Races — Beginner's Guide 🧝
 
 > **Note:** This guide covers the core EverQuest classes and races as of the classic/progression-era game through modern expansions. Class availability varies by expansion era on progression servers.
 
@@ -24,13 +24,13 @@ EverQuest has 16 classes divided into five archetypes. Understanding your role b
 
 ---
 
-### Tanks
+### 🛡️ Tanks
 
 Tanks hold the attention of enemies (*aggro*), absorb damage, and keep their group alive by standing between the monsters and the squishier members of the party.
 
 ---
 
-#### Warrior
+#### ⚔️ Warrior
 
 | Attribute | Details |
 |-----------|---------|
@@ -40,7 +40,7 @@ Tanks hold the attention of enemies (*aggro*), absorb damage, and keep their gro
 | **Weapons** | All weapons |
 
 **Key Strengths:**
-- Highest HP and AC of any class
+- ❤️ Highest HP and AC of any class
 - Best defensive skills (defense, riposte, dodge, parry)
 - Dual-wield and double-attack at high levels
 - Taunt ability to pull aggro reliably
@@ -55,7 +55,7 @@ Tanks hold the attention of enemies (*aggro*), absorb damage, and keep their gro
 
 ---
 
-#### Shadowknight
+#### 💀 Shadowknight
 
 | Attribute | Details |
 |-----------|---------|
@@ -66,7 +66,7 @@ Tanks hold the attention of enemies (*aggro*), absorb damage, and keep their gro
 
 **Key Strengths:**
 - Spells including lifetaps (steal HP from enemies to heal yourself)
-- Feign Death — fake dying to drop aggro and escape danger (a lifesaver)
+- 💀 Feign Death — fake dying to drop aggro and escape danger (a lifesaver)
 - Harm Touch — massive once-per-72-hour nuke
 - More solo-capable than Warrior due to lifetaps
 - Fear spells can kite enemies in the open
@@ -81,7 +81,7 @@ Tanks hold the attention of enemies (*aggro*), absorb damage, and keep their gro
 
 ---
 
-#### Paladin
+#### 🛡️ Paladin
 
 | Attribute | Details |
 |-----------|---------|
@@ -92,7 +92,7 @@ Tanks hold the attention of enemies (*aggro*), absorb damage, and keep their gro
 
 **Key Strengths:**
 - Can cast heals — invaluable in an emergency with no cleric
-- Lay on Hands — massive once-per-72-hour self-heal
+- 🛡️ Lay on Hands — massive once-per-72-hour self-heal
 - Undead-killing abilities (Stun, Turn Undead, Holy spells)
 - Group buffs including damage shields and resistances
 - Excellent in undead-heavy zones
@@ -107,13 +107,13 @@ Tanks hold the attention of enemies (*aggro*), absorb damage, and keep their gro
 
 ---
 
-### Melee DPS
+### ⚔️ Melee DPS
 
 Pure damage dealers who focus on dealing as much damage as possible in melee range. They depend on tanks to hold aggro and healers to keep them alive.
 
 ---
 
-#### Monk
+#### 🥷 Monk
 
 | Attribute | Details |
 |-----------|---------|
@@ -123,7 +123,7 @@ Pure damage dealers who focus on dealing as much damage as possible in melee ran
 | **Weapons** | Hand-to-hand, blunt weapons |
 
 **Key Strengths:**
-- Feign Death — one of the most valuable utility skills in the game
+- 💀 Feign Death — one of the most valuable utility skills in the game
 - Excellent puller thanks to Feign Death; standard group puller
 - High sustained DPS with fast attack speeds
 - Mend skill to self-heal on a timer
@@ -139,7 +139,7 @@ Pure damage dealers who focus on dealing as much damage as possible in melee ran
 
 ---
 
-#### Rogue
+#### 🥷 Rogue
 
 | Attribute | Details |
 |-----------|---------|
@@ -165,7 +165,7 @@ Pure damage dealers who focus on dealing as much damage as possible in melee ran
 
 ---
 
-#### Berserker
+#### 🧨 Berserker
 
 | Attribute | Details |
 |-----------|---------|
@@ -190,13 +190,13 @@ Pure damage dealers who focus on dealing as much damage as possible in melee ran
 
 ---
 
-### Hybrid Melee/Magic
+### ⚔️🔮 Hybrid Melee/Magic
 
 These classes blend melee combat with spellcasting, granting flexibility and solo capability at the cost of being slightly behind pure specialists.
 
 ---
 
-#### Ranger
+#### 🏹 Ranger
 
 | Attribute | Details |
 |-----------|---------|
@@ -206,7 +206,7 @@ These classes blend melee combat with spellcasting, granting flexibility and sol
 | **Weapons** | Archery (bows), dual-wield melee |
 
 **Key Strengths:**
-- Tracking skill — shows every nearby creature and player on a compass list; invaluable for finding named mobs
+- 🔑 Tracking skill — shows every nearby creature and player on a compass list; invaluable for finding named mobs
 - Archery DPS (especially powerful in later expansions with focus effects)
 - Nature spells: heals, damage shields, snare, ports
 - Good solo capability with snare + kiting
@@ -222,7 +222,7 @@ These classes blend melee combat with spellcasting, granting flexibility and sol
 
 ---
 
-#### Beastlord
+#### 🐾 Beastlord
 
 | Attribute | Details |
 |-----------|---------|
@@ -232,7 +232,7 @@ These classes blend melee combat with spellcasting, granting flexibility and sol
 | **Weapons** | Hand-to-hand, blunt, and some others |
 
 **Key Strengths:**
-- Warder pet — a permanent combat pet that fights alongside you at all times
+- 🐾 Warder pet — a permanent combat pet that fights alongside you at all times
 - Shaman-lite spells: slow, minor heals, haste, buffs
 - Good solo capability (pet + heals + slow)
 - Unique class with a very engaging playstyle
@@ -248,13 +248,13 @@ These classes blend melee combat with spellcasting, granting flexibility and sol
 
 ---
 
-### Priests
+### 💊 Priests
 
 The healers of EverQuest. Without priests, groups die. All three have very different flavors beyond healing.
 
 ---
 
-#### Cleric
+#### 💊 Cleric
 
 | Attribute | Details |
 |-----------|---------|
@@ -264,7 +264,7 @@ The healers of EverQuest. Without priests, groups die. All three have very diffe
 | **Weapons** | Blunt weapons only |
 
 **Key Strengths:**
-- Best heals in the game — no other class comes close
+- 💊 Best heals in the game — no other class comes close
 - Complete Heal (CH) — the cornerstone of high-level group healing
 - Resurrection spells to bring the dead back with experience restored
 - Group buffs (Symbol, Armor of Protection)
@@ -280,7 +280,7 @@ The healers of EverQuest. Without priests, groups die. All three have very diffe
 
 ---
 
-#### Druid
+#### 🌿 Druid
 
 | Attribute | Details |
 |-----------|---------|
@@ -290,7 +290,7 @@ The healers of EverQuest. Without priests, groups die. All three have very diffe
 | **Weapons** | Blunt and some piercing |
 
 **Key Strengths:**
-- Teleportation spells — can port entire groups to dozens of destinations; extremely valuable
+- ✨ Teleportation spells — can port entire groups to dozens of destinations; extremely valuable
 - Solid heals (not as strong as Cleric but sufficient)
 - Damage-over-time (DoT) and nukes for solo play
 - Snare + kiting ability for solo grinding
@@ -306,7 +306,7 @@ The healers of EverQuest. Without priests, groups die. All three have very diffe
 
 ---
 
-#### Shaman
+#### 🥁 Shaman
 
 | Attribute | Details |
 |-----------|---------|
@@ -316,7 +316,7 @@ The healers of EverQuest. Without priests, groups die. All three have very diffe
 | **Weapons** | Blunt and some others |
 
 **Key Strengths:**
-- Slow spell — reduces enemy attack speed by up to 75%; arguably the most powerful debuff in the game
+- 🔑 Slow spell — reduces enemy attack speed by up to 75%; arguably the most powerful debuff in the game
 - Haste (Spirit of Wolf, etc.) — speeds up group members' attack speeds significantly
 - Strong heals and HoTs (heals over time)
 - DoT spells for solo efficiency
@@ -332,13 +332,13 @@ The healers of EverQuest. Without priests, groups die. All three have very diffe
 
 ---
 
-### Casters
+### 🔮 Casters
 
 Pure spellcasters who deal damage, control the battlefield, or support through arcane means. They wear cloth or leather, are fragile, but their spells are devastating.
 
 ---
 
-#### Wizard
+#### 🧙 Wizard
 
 | Attribute | Details |
 |-----------|---------|
@@ -363,7 +363,7 @@ Pure spellcasters who deal damage, control the battlefield, or support through a
 
 ---
 
-#### Magician
+#### 🔮 Magician
 
 | Attribute | Details |
 |-----------|---------|
@@ -389,7 +389,7 @@ Pure spellcasters who deal damage, control the battlefield, or support through a
 
 ---
 
-#### Necromancer
+#### 💀 Necromancer
 
 | Attribute | Details |
 |-----------|---------|
@@ -399,7 +399,7 @@ Pure spellcasters who deal damage, control the battlefield, or support through a
 | **Weapons** | Blunt only |
 
 **Key Strengths:**
-- Best solo class in the game — DoTs, undead pet, lifetap, Feign Death
+- 💀 Best solo class in the game — DoTs, undead pet, lifetap, Feign Death
 - Feign Death (like Monk) — can escape almost any situation
 - Undead pet for tanking
 - Lich spells that convert HP to mana (dangerous but efficient)
@@ -416,7 +416,7 @@ Pure spellcasters who deal damage, control the battlefield, or support through a
 
 ---
 
-#### Enchanter
+#### 🧙 Enchanter
 
 | Attribute | Details |
 |-----------|---------|
@@ -426,7 +426,7 @@ Pure spellcasters who deal damage, control the battlefield, or support through a
 | **Weapons** | Blunt only |
 
 **Key Strengths:**
-- Mez (Mesmerize) — stuns multiple enemies, preventing them from fighting; the gold standard of crowd control
+- 🔑 Mez (Mesmerize) — stuns multiple enemies, preventing them from fighting; the gold standard of crowd control
 - Haste spells — the fastest haste in the game, dramatically boosting group DPS
 - Clarity/Brilliance — mana regeneration buffs that every caster wants
 - Charm — convert monsters to temporary allies; the most dangerous and rewarding mechanic in EQ
@@ -443,7 +443,7 @@ Pure spellcasters who deal damage, control the battlefield, or support through a
 
 ---
 
-#### Bard
+#### 🎵 Bard
 
 | Attribute | Details |
 |-----------|---------|
@@ -454,7 +454,7 @@ Pure spellcasters who deal damage, control the battlefield, or support through a
 
 **Key Strengths:**
 - Songs that affect the entire group: haste, mana regen, HP regen, movement speed, see-invisible, resist buffs
-- Can *twist* (cycle) multiple songs simultaneously — the defining Bard skill
+- 🎵 Can *twist* (cycle) multiple songs simultaneously — the defining Bard skill
 - Mez songs for crowd control
 - Charm songs
 - Snare and speed songs enable kiting
@@ -479,7 +479,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Human
+### 🧑 Human
 
 | Attribute | Details |
 |-----------|---------|
@@ -497,7 +497,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Barbarian
+### 💪 Barbarian
 
 | Attribute | Details |
 |-----------|---------|
@@ -516,7 +516,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Dark Elf
+### 💀 Dark Elf
 
 | Attribute | Details |
 |-----------|---------------|
@@ -535,7 +535,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Dwarf
+### 🏔️ Dwarf
 
 | Attribute | Details |
 |-----------|---------|
@@ -555,7 +555,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Erudite
+### 🧠 Erudite
 
 | Attribute | Details |
 |-----------|---------|
@@ -574,7 +574,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Gnome
+### 🔧 Gnome
 
 | Attribute | Details |
 |-----------|---------|
@@ -594,7 +594,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Half Elf
+### 🧝 Half Elf
 
 | Attribute | Details |
 |-----------|---------|
@@ -613,7 +613,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Halfling
+### 🏃 Halfling
 
 | Attribute | Details |
 |-----------|---------|
@@ -633,7 +633,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### High Elf
+### 🧝 High Elf
 
 | Attribute | Details |
 |-----------|---------|
@@ -652,7 +652,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Iksar
+### 🐉 Iksar
 
 | Attribute | Details |
 |-----------|---------|
@@ -665,7 +665,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 **Racial Abilities/Bonuses:**
 - Natural AC bonus (scales)
-- Superior regeneration (out of combat HP regen)
+- ❤️ Superior regeneration (out of combat HP regen)
 - High WIS — excellent Shaman race
 - Swim skill bonus
 - Can play Monk, Shadow Knight, Shaman, Warrior, Necromancer, Beastlord
@@ -673,7 +673,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Ogre
+### 💪 Ogre
 
 | Attribute | Details |
 |-----------|---------|
@@ -693,7 +693,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Troll
+### ❤️ Troll
 
 | Attribute | Details |
 |-----------|---------|
@@ -705,7 +705,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 **Description:** Fearsome, regenerating swamp creatures from Grobb. Trolls have very high Strength and Stamina plus an exceptional natural regeneration ability — the best out-of-combat HP regeneration in the game. This makes them resilient tanks that recover faster between fights than any other race. They pay for this with extremely low Intelligence and Charisma.
 
 **Racial Abilities/Bonuses:**
-- **Best natural regeneration** in the game
+- ❤️ **Best natural regeneration** in the game
 - High STR and STA
 - Infravision
 - Can play Warrior, Shadow Knight, Shaman, Beastlord
@@ -713,7 +713,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Vah Shir
+### 🐱 Vah Shir
 
 | Attribute | Details |
 |-----------|---------|
@@ -734,7 +734,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Wood Elf
+### 🧝 Wood Elf
 
 | Attribute | Details |
 |-----------|---------|
@@ -753,7 +753,7 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 ---
 
-### Froglok
+### 🐸 Froglok
 
 | Attribute | Details |
 |-----------|---------|
@@ -864,22 +864,22 @@ EverQuest's races each have different starting stats, racial abilities, starting
 
 | Class | Solo Viability | Group Demand | Difficulty |
 |-------|---------------|--------------|------------|
-| Warrior | 🔴 Low | 🟢 Very High | 🟢 Easy |
-| Paladin | 🟡 Medium | 🟢 High | 🟡 Medium |
-| Shadowknight | 🟡 Medium | 🟡 Medium | 🟡 Medium |
-| Monk | 🟡 Medium | 🟢 High | 🟡 Medium |
-| Rogue | 🔴 Low | 🟡 Medium | 🟢 Easy |
-| Berserker | 🔴 Low | 🟡 Medium | 🟢 Easy |
-| Ranger | 🟡 Medium | 🟡 Medium | 🟡 Medium |
-| Beastlord | 🟢 High | 🟡 Medium | 🟡 Medium |
-| Cleric | 🔴 Low | 🟢 Very High | 🟢 Easy |
-| Druid | 🟢 High | 🟡 Medium | 🟢 Easy |
-| Shaman | 🟢 High | 🟢 High | 🟡 Medium |
-| Wizard | 🟡 Medium | 🟡 Medium | 🟢 Easy |
-| Magician | 🟢 Very High | 🟡 Medium | 🟢 Easy |
-| Necromancer | 🟢 Very High | 🔴 Low | 🟡 Medium |
-| Enchanter | 🟡 Medium | 🟢 Very High | 🔴 Hard |
-| Bard | 🟡 Medium | 🟢 Very High | 🔴 Hard |
+| ⚔️ Warrior | 🔴 Low | 🟢 Very High | 🟢 Easy |
+| 🛡️ Paladin | 🟡 Medium | 🟢 High | 🟡 Medium |
+| 💀 Shadowknight | 🟡 Medium | 🟡 Medium | 🟡 Medium |
+| 🥷 Monk | 🟡 Medium | 🟢 High | 🟡 Medium |
+| 🥷 Rogue | 🔴 Low | 🟡 Medium | 🟢 Easy |
+| 🧨 Berserker | 🔴 Low | 🟡 Medium | 🟢 Easy |
+| 🏹 Ranger | 🟡 Medium | 🟡 Medium | 🟡 Medium |
+| 🐾 Beastlord | 🟢 High | 🟡 Medium | 🟡 Medium |
+| 💊 Cleric | 🔴 Low | 🟢 Very High | 🟢 Easy |
+| 🌿 Druid | 🟢 High | 🟡 Medium | 🟢 Easy |
+| 🥁 Shaman | 🟢 High | 🟢 High | 🟡 Medium |
+| 🧙 Wizard | 🟡 Medium | 🟡 Medium | 🟢 Easy |
+| 🔮 Magician | 🟢 Very High | 🟡 Medium | 🟢 Easy |
+| 💀 Necromancer | 🟢 Very High | 🔴 Low | 🟡 Medium |
+| 🧙 Enchanter | 🟡 Medium | 🟢 Very High | 🔴 Hard |
+| 🎵 Bard | 🟡 Medium | 🟢 Very High | 🔴 Hard |
 
 ---
 

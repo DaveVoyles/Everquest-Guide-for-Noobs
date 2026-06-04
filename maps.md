@@ -10,22 +10,22 @@ EverQuest's world is enormous, and navigation can be one of the biggest challeng
 - Press **M** (default) to open the map window
 - Or click the Map button in your UI
 
-### What the Default Map Shows
+### 📋 What the Default Map Shows
 - **Zone geometry** — walls, roads, and zone outlines
 - **Your position** — shown as a moving marker
 - **Waypoints you've set** — small markers you can place manually
 - **NPC/player labels** — shown if they've been mapped in your map files
 
-### Map Controls
+### ⌨️ Map Controls
 | Action | How |
 |--------|-----|
-| Zoom in/out | Mouse wheel, or the +/– buttons on the map |
-| Pan | Click and drag the map |
-| Toggle player tracking | Click the compass/player icon |
-| Toggle map layers | Some zones have multiple layers (e.g. dungeon floors) — use the layer dropdown |
-| Show/hide labels | Right-click the map for display options |
+| 🔍 Zoom in/out | Mouse wheel, or the +/– buttons on the map |
+| 🖱️ Pan | Click and drag the map |
+| 📍 Toggle player tracking | Click the compass/player icon |
+| 🏰 Toggle map layers | Some zones have multiple layers (e.g. dungeon floors) — use the layer dropdown |
+| 👁️ Show/hide labels | Right-click the map for display options |
 
-### Map Limitations (Default)
+### ⚠️ Map Limitations (Default)
 The default EQ map files are sparse. Many zones have no geometry at all, and NPCs/vendors are rarely labeled. This is especially true on **Project 1999** and classic-era content. The community has solved this with third-party map packs — see below.
 
 ---
@@ -47,20 +47,20 @@ The **Find** window is one of EQLive's most useful quality-of-life features. It 
 5. A **glowing yellow/gold trail of lights** appears on the ground in the 3D world, leading you directly to the target
 6. Follow the trail — it updates as you move
 
-### What You Can Find
-- **Merchants / Vendors** — search for weapon, armor, spell, or food vendors
-- **Bankers** — find the nearest bank NPC
-- **Guild Masters** — find your class trainer
-- **Quest NPCs** — many named quest givers are listed
-- **Zone Exits / Translocators** — helpful in large cities like Plane of Knowledge
-- **Bindable locations** — search "bind" or "soulbinder"
+### 📍 What You Can Find
+- 💰 **Merchants / Vendors** — search for weapon, armor, spell, or food vendors
+- 🏦 **Bankers** — find the nearest bank NPC
+- ⚔️ **Guild Masters** — find your class trainer
+- 💬 **Quest NPCs** — many named quest givers are listed
+- 🚪 **Zone Exits / Translocators** — helpful in large cities like Plane of Knowledge
+- 🔑 **Bindable locations** — search "bind" or "soulbinder"
 
 > 💡 **Best use:** In large, confusing cities (Plane of Knowledge, Freeport, Qeynos, Shar Vahl), Find is absolutely essential. Open it the moment you arrive in a new city to locate vendors and services.
 
-### Find Tips
-- **Plane of Knowledge (PoK)** is the hub of EQLive and has almost every type of vendor and class book. Find is invaluable here.
+### 💡 Find Tips
+- 🏙️ **Plane of Knowledge (PoK)** is the hub of EQLive and has almost every type of vendor and class book. Find is invaluable here.
 - If a result doesn't appear, the NPC may not be in the current zone, or the map file may not have it labeled — this is where better map files (below) help.
-- Find only works in the **current zone** — it won't help you locate things in other zones.
+- ⚠️ Find only works in the **current zone** — it won't help you locate things in other zones.
 - On **P1999**, the Find feature is not available (classic client). You navigate by memory, asking other players, or using EQ Atlas.
 
 ---
@@ -68,13 +68,13 @@ The **Find** window is one of EQLive's most useful quality-of-life features. It 
 ## 📦 Installing Better Maps: Brewall's Map Files
 
 The default EQ map files are minimal. **Brewall's Map Files** are a community-maintained, heavily annotated replacement that include:
-- Accurate zone geometry for all expansions
-- **Named / Hunter mob locations** (huge for achievement hunters)
-- Merchant and vendor labels
-- Quest NPC markers
-- Collectable locations
-- Zone line markers
-- Multiple color-coded depth layers for complex dungeons
+- ✅ Accurate zone geometry for all expansions
+- 🎯 **Named / Hunter mob locations** (huge for achievement hunters)
+- 💰 Merchant and vendor labels
+- 💬 Quest NPC markers
+- 📦 Collectable locations
+- 🚪 Zone line markers
+- 🏰 Multiple color-coded depth layers for complex dungeons
 
 These maps transform navigation from guesswork into a genuine tool.
 
@@ -137,29 +137,29 @@ C:\Users\Public\Daybreak Game Company\Installed Games\EverQuest\maps\Brewall\
 
 Project 1999 uses a different client and doesn't support the EQLive map system. Your options:
 
-### EQ Atlas (Printable Maps)
+### 🗺️ EQ Atlas (Printable Maps)
 - Website: **http://www.eqatlas.com**
 - Classic, hand-drawn style maps of every original EQ zone
 - Print them out or keep the browser open while you play
 - Shows zone exits, dungeon layouts, and key NPC locations
 
-### P1999 Wiki Maps
+### 📖 P1999 Wiki Maps
 - The **P1999 Wiki** (https://wiki.project1999.com) has zone articles with maps embedded
 - Search any zone name to find its map and NPC locations
 
-### In-Game Map on P1999
+### 🗺️ In-Game Map on P1999
 P1999 does include a basic in-game map window, but it uses minimal default map files. You can supplement with community map files compatible with the P1999 client — check the P1999 forums for the latest community map pack.
 
 ---
 
-## 🏢 Map Layers (Multi-Floor Dungeons)
+## 🏰 Map Layers (Multi-Floor Dungeons)
 
 Some zones — particularly multi-floor dungeons like Velketor's Labyrinth, Tower of Frozen Shadow, and Plane of Hate — have **multiple map layers** representing different floors or depth levels.
 
 ### Using Layers
 - In the map window, look for a **layer selector** (usually a number or dropdown near the top)
 - Switch layers as you move up/down in the dungeon
-- Brewall's maps include **color-coded depth layers** that visually distinguish floors, making complex 3D dungeons dramatically easier to understand
+- 🎨 Brewall's maps include **color-coded depth layers** that visually distinguish floors, making complex 3D dungeons dramatically easier to understand
 
 ---
 
@@ -167,15 +167,15 @@ Some zones — particularly multi-floor dungeons like Velketor's Labyrinth, Towe
 
 For zones with poor or no map coverage (common on P1999):
 
-- **`/loc`** — shows your X, Y, Z coordinates. Write these down for important spots.
-- **Zone guides on the P1999 Wiki** — most zones have walkthrough articles with landmark descriptions
-- **Ask in `/ooc`** — "Where is the Butcherblock dock?" gets answered fast in an active zone
-- **Follow the roads** — EQ zones often have roads leading to key locations and zone lines
-- **EQ Atlas** — keep it open in a browser tab while you play
+- 📍 **`/loc`** — shows your X, Y, Z coordinates. Write these down for important spots.
+- 📖 **Zone guides on the P1999 Wiki** — most zones have walkthrough articles with landmark descriptions
+- 💬 **Ask in `/ooc`** — "Where is the Butcherblock dock?" gets answered fast in an active zone
+- 🌲 **Follow the roads** — EQ zones often have roads leading to key locations and zone lines
+- 🗺️ **EQ Atlas** — keep it open in a browser tab while you play
 
 ---
 
-## Quick Reference
+## 📋 Quick Reference
 
 ```
 M               Open/close map window

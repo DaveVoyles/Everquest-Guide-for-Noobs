@@ -48,6 +48,12 @@ Whether you're a **brand-new player** drawn in by nostalgia or word of mouth, or
 | 🖥️ [UI Scaling & Display](ui-scaling.md) | Fixing tiny UI on 4K/high-res monitors, eqclient.ini tweaks, custom UI packs, 2-box windowed layout |
 | 💬 [Chat Windows & Filters](chat-windows.md) | How many windows to use, which filters go where, adjusting font size, recommended layout |
 | 📚 [Skills & Spells](skills-and-spells.md) | How skills level up, where to spend training points, where to buy spells and when, spell memorization |
+| ⚔️ [Gear, Stats & Equipment](gear-and-stats.md) | Every stat explained, priority by class, equipment slots, identifying items, where to get starter gear |
+| 💰 [Economy & Making Plat](economy.md) | How the player economy works, EC tunnel vs Bazaar, making platinum, trading lingo, avoiding scams |
+| 🤝 [Grouping & LFG](grouping-and-lfg.md) | Finding a group, roles explained, LFG flag, etiquette, communication callouts, popular camps by level |
+| ✨ [Buffs Guide](buffs.md) | How buffs work, the most valuable buffs to seek out, Bard songs, buff etiquette, stacking rules |
+| 🏰 [Guilds](guilds.md) | What guilds provide, how to join, guild chat, ranks, guild halls, raiding, finding the right fit |
+| 😡 [Aggro & Threat](aggro.md) | How threat works, how tanks hold aggro, how NOT to steal aggro, class-specific notes, emergency escapes |
 
 ---
 
