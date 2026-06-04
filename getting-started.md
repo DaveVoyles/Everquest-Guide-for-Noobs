@@ -203,14 +203,64 @@ When you kill a mob, it leaves a **corpse** with loot:
   - Always thank the caster — buffs cost them mana and time
 
 ### Binding Your Soul (/bind)
-**This is critically important.** When you die, you respawn at your **bind point**. By default you are bound at your race's starting city.
+**This is critically important.** When you die, you respawn at your **bind point**. By default you are bound at your race's starting city — which may be a continent away from where you're hunting.
 
-- Type `/loc` to see your current coordinates (X, Y, Z) and zone
-- To change your bind point, you need either:
-  - A **Cleric, Druid, Wizard, or Enchanter** to cast **Bind Affinity** on you
-  - On EQLive, some stones and NPC abilities can also bind you
-- **Bind in a safe, convenient location** near where you're hunting — ideally the nearest city or a safe spot in your hunting zone
-- A bad bind point means a **very long corpse run** after death
+#### How to Bind
+- You **cannot** bind yourself. You need another player (or an NPC on EQLive) to cast **Bind Affinity** on you.
+- Classes that can bind others: **Cleric, Druid, Wizard, Enchanter** (and Necromancers can self-bind)
+- Ask in `/ooc`: *"Any Druids/Clerics/Wizards able to bind me please?"*
+- Stand in the spot you want to be bound — a city, an inn, or a safe outdoor area near your hunting zone
+
+#### Where to Bind
+- **Near where you're hunting** — so a death means a short run back, not a cross-continent trek
+- **Inside a city or inn** — safe, easy to reach, good for general use
+- **At a zone line** close to a dungeon — minimizes corpse run distance
+- Avoid binding in dangerous zones where getting back after death would require fighting through the same mobs that killed you
+
+#### Checking Your Bind Point
+There's no `/showbind` command — you only discover your bind point when you die. Prevent surprises by always asking for a re-bind when you move to a new area.
+
+> **Rule of thumb:** Every time you travel to a new hunting area and plan to stay, get re-bound there.
+
+---
+
+### Returning to Your Bind Point: The Gate Spell
+
+**Gate** is a spell that **instantly teleports you back to your bind point**, no matter where you are in the world. It is one of the most important spells in EverQuest.
+
+#### Who Gets Gate
+| Class | Notes |
+|-------|-------|
+| **Druid** | Gets Gate early (level 14); also has group ports |
+| **Wizard** | Gets Gate; also has long-distance teleport spells |
+| **Necromancer** | Gets Gate; can also use it as a panic escape |
+| **Cleric** | Gets Gate; lifesaving in emergencies |
+| **Enchanter** | Gets Gate |
+| **Shadowknight** | Gets Gate at higher levels |
+| **Paladin** | Gets Gate at higher levels |
+| **Magician** | Gets Gate |
+| **Shaman** | Does **not** get Gate — bind point matters even more |
+| **Warrior, Monk, Rogue, Ranger, Bard, Beastlord, Berserker** | No Gate — rely on Druid/Wizard ports or running |
+
+#### Using Gate
+1. Memorize Gate in one of your 8 spell slots
+2. Stand still and cast it (takes a few seconds — do not move!)
+3. You will be teleported instantly to your bind point
+
+#### Gate as an Emergency Escape
+- If a fight goes badly and you're about to die, **Gate out immediately**
+- Gate takes ~3–4 seconds to cast — start casting **before** you're at critically low health
+- Gate is cancelled if you take damage during the cast on some server settings (P1999: Gate is interruptible; EQLive: less so)
+- **Hotbar Gate** — put it on an easy-to-reach hotkey so you can hit it in a panic
+
+> **Tip:** Many experienced players keep Gate in spell slot 8 (their last slot) and have a hotkey always ready. When something goes wrong, muscle memory takes over.
+
+#### Classes Without Gate: Your Options
+If you play a class without Gate (Warrior, Monk, Rogue, etc.):
+- **Stay close to zone lines** when hunting — ducking into the next zone drops aggro
+- **Ask a Druid or Wizard for a port** back to your home city (tip them plat!)
+- **Feign Death** (Monks, Necromancers, Shadowknights) — drops mob aggro, lets you escape
+- Plan your hunting spots with escape routes in mind
 
 ---
 
