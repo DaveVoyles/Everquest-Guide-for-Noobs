@@ -4,35 +4,6 @@ Gear matters enormously in EQ. Unlike modern MMOs that automatically equip items
 
 ---
 
-## 🎒 Equipment Slots
-
-Your character has **21 equipment slots**:
-
-| Slot | What Goes There |
-|------|----------------|
-| 👑 Head | Helms, hats, hoods |
-| 👂 Ear (x2) | Earrings |
-| 👁️ Face | Masks, eyepatches |
-| 🔮 Neck | Necklaces, amulets |
-| 💪 Shoulders | Pauldrons, mantles |
-| 🛡️ Arms | Vambraces, sleeves |
-| 🖐️ Wrist (x2) | Bracer, armband |
-| 🧤 Hands | Gauntlets, gloves |
-| 🫀 Chest | Breastplate, robe, tunic |
-| 🩲 Legs | Greaves, leggings |
-| 👟 Feet | Boots, sandals |
-| 💍 Finger (x2) | Rings |
-| 🎒 Back | Cloaks, packs |
-| 🧳 Waist | Belts, girdles |
-| 🗡️ Primary | Main-hand weapon |
-| 🛡️ Secondary | Off-hand weapon, shield, or secondary |
-| 🏹 Range | Ranged weapon (bow, thrown) |
-| 🎵 Ammo | Arrows, bolts, thrown items |
-
-To equip an item: **right-click it** in your inventory, or drag it to the appropriate slot in your character window (**C** to open).
-
----
-
 ## 📊 Stats Explained
 
 EQ has many stats. Here's what each does and who cares about it:
