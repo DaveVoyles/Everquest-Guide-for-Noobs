@@ -58,6 +58,12 @@ Whether you're a **brand-new player** drawn in by nostalgia or word of mouth, or
 | ☠️ [Death & Corpse Runs](death-and-corpse-runs.md) | What happens when you die, XP loss, corpse runs, resurrection spells, Feign Death, bind point strategy |
 | 🏴 [Faction](faction.md) | How faction works, faction tiers, KOS explained, city alignment by race, repairing faction, Freeport factions |
 | 🔨 [Tradeskills](tradeskills.md) | Overview of all crafting skills, which to start with, Baking/Tailoring/Smithing/Research explained, resources |
+| ⚔️ [Combat Basics](combat-basics.md) | Auto-attack, spell casting, damage types, procs, resistances, the sit-and-med rhythm, combat flow |
+| 🖥️ [Server Types](server-types.md) | EQLive vs TLP vs Project 1999 — costs, populations, rulesets, and which to pick |
+| ⭐ [Alternate Advancement](alternate-advancement.md) | What AAs are, when to start grinding them, which to buy first by class, AA camp spots |
+| 🐾 [Pets](pets.md) | Magician, Necromancer, Enchanter, Beastlord pet mechanics — summoning, commands, equipping, group etiquette |
+| 📜 [Quests](quests.md) | How EQ quests work (no tracker!), newbie quests, epic weapons, zone key quests, external resources |
+| 🗺️ [Travel & Zones](travel-and-zones.md) | Movement speed, SoW, ports (Druid/Wizard), boats, dangerous zones, continent overview |
 
 ---
 
